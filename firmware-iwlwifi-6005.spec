@@ -3,12 +3,12 @@
 #
 Summary:	Microcode image for for Intel WiFi adapter
 Name:		firmware-iwlwifi-%{module}
-Version:	17.168.5.3
+Version:	18.168.6.1
 Release:	1
 License:	distributable
 Group:		Base/Kernel
 Source0:	http://intellinuxwireless.org/iwlwifi/downloads/iwlwifi-%{fware}-ucode-%{version}.tgz
-# Source0-md5:	fe99ef72d4c016c9b04506fa474c1acd
+# Source0-md5:	6e40ff479694dffef8e8e4879ced5334
 URL:		http://www.intellinuxwireless.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
